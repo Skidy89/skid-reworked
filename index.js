@@ -16,7 +16,7 @@ const { say } = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
 
-say('Skid base\n uwu', {
+say('Skid Reworked\nWhatsApp Bot', {
   font: 'block',
   align: 'center',
   gradient: ['#A15FFF', '#FFCA58'],

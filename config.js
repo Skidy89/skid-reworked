@@ -19,7 +19,10 @@ global.author = 'sᴋɪᴅ ʀᴇᴡᴏʀᴋᴇᴅ ღ'
 global.wm = 'sᴋɪᴅ ʀᴇᴡᴏʀᴋᴇᴅ ღ'
 global.igfg = 'sᴋɪᴅ ʀᴇᴡᴏʀᴋᴇᴅ ღ'
 global.wait = '*[❗] ᴇsᴘᴇʀᴀ...*'
-
+global.youtube = 'https://youtube.com/@skid921'
+global.paypal = 'https://paypal.me/skid323'
+global.whatsapp = "wa.me/+5218442114446"
+global.vs = '1.1 (beta)'
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 // 'fiktod' 'BF39D349845E' '675e34de8a' '0b917b905e6f'
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
@@ -261,8 +264,8 @@ string = string.toLowerCase()
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 MysticCoins',
-      tiketcoin: '🎫 mystic Tickers',
+      money: '💵 Dinero',
+      tiketcoin: '🎫 Tickets',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
       aqua: '💧 Agua',
@@ -291,7 +294,7 @@ string = string.toLowerCase()
       pancing: '🎣 Caña de Pescar',
       common: '📦 Caja Común',
       uncoommon: '🥡 Caja Poco Común',
-      mythic: '🗳️ Caja Mítica',
+      mythic: '??️ Caja Mítica',
       pet: '📫 Caja de Mascotas',//?
       gardenboxs: '💐 Caja de Jardinería',//?
       legendary: '🎁 Caja Legendaria',
