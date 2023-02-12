@@ -79,7 +79,7 @@ getMessage: async (key) => ( opts.store.loadMessage(/** @type {string} */(key.re
 msgRetryCounterMap,
 logger: pino({ level: 'silent' }),
 auth: state,
-browser: ['MysticBot','Safari','9.7.0']
+browser: ['skid bot','Safari','9.7.0']
 }
 
 global.conn = makeWASocket(connectionOptions)
@@ -124,9 +124,9 @@ readdirSync("./jadibts/" + file).forEach(file2 => {
 if (file2 !== "creds.json") { unlinkSync("./jadibts/" + file + "/" + file2) }})
 } catch {}}})*/
        
-readdirSync("./MysticSession").forEach(file => {
+readdirSync("./Session").forEach(file => {
 if (file !== 'creds.json') {
-unlinkSync("./MysticSession/" + file, { recursive: true, force: true })}})    
+unlinkSync("./Session/" + file, { recursive: true, force: true })}})    
 return filename.map(file => {
 const stats = statSync(file)
 if (stats.isFile() && (Date.now() - stats.mtimeMs >= 1000 * 60 * 3)) return unlinkSync(file) // 3 minutes
